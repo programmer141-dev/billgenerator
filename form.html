@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>GWSEA-AP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./assets/favico.png" alt="" class="logo">
+            <div class="navlist">
+                <a href="./landing.html" class="navitem">GWSEA-AP</a>
+                <a href="#" class="navitem selected">Reciept</a>
+                <a href="#" class="navitem">History</a>
+            </div>
+        </div>
+        <div class="formContainer">
+            <div class="form">
+                <img src="./assets/favico.png" alt="" class="watermark">
+                <!-- <div class="head">Membership Reciept</div> -->
+                <div class="inputs">
+                    <div class="inpwrapper">
+                        <label class="label">Reciept no</label>
+                        <input type="text" class="inp" placeholder="Ex: 17273">
+                    </div>
+                    <div class="inpwrapper">
+                        <label class="label">Employee Id</label>
+                        <input type="text" class="inp">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="inpwrapper" style="width:100%">
+                        <label class="label">Employee Name</label>
+                        <input type="text" class="inp" style="width: 95%">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="inpwrapper">
+                        <label class="label">Designation</label>
+                        <input type="text" class="inp" placeholder="Ex: select from drop menu">
+                    </div>
+                    <div class="inpwrapper">
+                        <label class="label">Mandalam</label>
+                        <input type="text" class="inp" placeholder="Select Mandal from the drop menu">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="inpwrapper">
+                        <label class="label">District</label>
+                        <input type="text" class="inp" placeholder="Ex: select from drop menu">
+                    </div>
+                    <div class="inpwrapper">
+                        <label class="label">Amount</label>
+                        <input type="number" class="inp" placeholder="Enter Chalana amount in numbers">
+                    </div>
+                </div>
+                <button class="btn">Generate Bill</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
